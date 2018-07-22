@@ -1,3 +1,48 @@
 h1 {
   color:blue;
+  font-family: Georgia;
+}
+
+.firstcharacter {
+  color: blue;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.img-left {
+  float:left;
+  margin-right:5px;
+  width:60%
+}
+
+.img-right {
+  float:right;
+  margin-left:5px;
+  width:60%
+}
+
+#bigbox {
+  border:3px double;
+  margin-top:5px;
+}
+
+@media (min-width: 500px)
+{
+    #bigbox
+    {
+        background-color: lightblue;
+    }
+}
+
+@media (max-width: 499px)
+{
+    #bigbox
+    {
+        background-color: lightgray;
+    }
 }
